@@ -1,0 +1,21 @@
+<resources>
+    <string name="facebook_app_id">1378112635626343</string>
+    <string name="fb_login_protocol_scheme">fb1378112635626343</string>
+    <string name="app_name">SmartHouse</string>
+    <string name="memy">Memy</string>
+    <string name="kalkulator">Kalkulator</string>
+    <string name="pasty">Pasty</string>
+    <string name="cytaty">Cytaty</string>
+    <string name="terminarz">Terminarz</string>
+    <string name="mail_hint">e-mail</string>
+    <string name="pass_hint">password</string>
+    <string name="login_btn">Log in</string>
+    <string name="register_btn">Zarejestruj</string>
+    <string name="back_login_btn">Powrót do ekranu logowania</string>
+    <string name="minimum_password">Password too short</string>
+    <string name="auth_failed">Authentication failed</string>
+    <string name="rejestracja">W celu utworzenia konta skontaktuj się z administratorem.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

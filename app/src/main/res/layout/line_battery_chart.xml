@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/lineChart"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        custom:layout_constraintTop_toBottomOf="@id/batteryChart" />
+
+    <!--<Switch-->
+        <!--android:id="@+id/modeSwitch"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:visibility="gone"-->
+        <!--android:gravity="center"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--custom:layout_constraintTop_toBottomOf="@id/lineChart"-->
+        <!--custom:layout_constraintLeft_toRightOf="@id/switchtext"-->
+        <!--custom:layout_constraintRight_toRightOf="parent"-->
+        <!--tools:layout_editor_absoluteY="300dp" />-->
+    <!--<TextView-->
+        <!--android:id="@+id/switchtext"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Battery chart"-->
+        <!--android:textColor="@color/colorPrimaryDark"-->
+        <!--android:textSize="20sp"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--custom:layout_constraintTop_toBottomOf="@id/lineChart"-->
+        <!--custom:layout_constraintLeft_toLeftOf="parent"/>-->
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.DeviceFragment"
+    android:layout_marginBottom="60dp">
+
+
+    <Button
+        android:id="@+id/agd"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@drawable/circle"
+        android:drawableTop="@drawable/ic_fridge"
+        android:paddingTop="20dp"
+        android:text="AGD"
+        android:textColor="#fff"
+        app:layout_constraintRight_toLeftOf="@+id/rtv"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/light"/>
+
+    <Button
+        android:id="@+id/rtv"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@drawable/circle"
+        android:drawableTop="@drawable/ic_tv"
+        android:paddingTop="20dp"
+        android:text="RTV"
+        android:textColor="#fff"
+        app:layout_constraintLeft_toRightOf="@+id/agd"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/gate"/>
+
+    <Button
+        android:id="@+id/light"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@drawable/circle"
+        android:drawableTop="@drawable/ic_light"
+        android:paddingTop="20dp"
+        android:text="Light"
+        android:textColor="#fff"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/agd"
+        app:layout_constraintRight_toLeftOf="@id/gate"
+        app:layout_constraintBottom_toTopOf="@id/ac"/>
+
+    <Button
+        android:id="@+id/gate"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@drawable/circle"
+        android:drawableTop="@drawable/ic_gate"
+        android:paddingTop="20dp"
+        android:text="GATE"
+        android:textColor="#fff"
+        app:layout_constraintBottom_toTopOf="@id/heating"
+        app:layout_constraintLeft_toRightOf="@+id/light"
+        app:layout_constraintTop_toBottomOf="@+id/rtv"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <Button
+        android:id="@+id/ac"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@drawable/circle"
+        android:drawableTop="@drawable/ic_ac"
+        android:paddingTop="20dp"
+        android:text="AC"
+        android:textColor="#fff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/light"
+        app:layout_constraintRight_toLeftOf="@id/heating"/>
+
+    <Button
+        android:id="@+id/heating"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@drawable/circle"
+        android:drawableTop="@drawable/ic_heating"
+        android:paddingTop="20dp"
+        android:text="Heating"
+        android:textSize="12sp"
+        android:textColor="#fff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/ac"
+        app:layout_constraintTop_toBottomOf="@+id/gate"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+</android.support.constraint.ConstraintLayout>

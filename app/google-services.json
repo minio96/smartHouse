@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "412606476025",
+    "firebase_url": "https://smarthouse-cccb7.firebaseio.com",
+    "project_id": "smarthouse-cccb7",
+    "storage_bucket": "smarthouse-cccb7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:412606476025:android:fc836b0a2ed677dc",
+        "android_client_info": {
+          "package_name": "com.sypcio.smarthouse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "412606476025-f4jradvia424ehokf3iofc69h5ltkk05.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sypcio.smarthouse",
+            "certificate_hash": "056c51681131bb729b1ee7672302329dca7f590f"
+          }
+        },
+        {
+          "client_id": "412606476025-ludkm096muet3ocvg5rrochjh88ro37v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfViBlUcZAJscSuHmsSIG6haTfJ3QF_BA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "412606476025-ludkm096muet3ocvg5rrochjh88ro37v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

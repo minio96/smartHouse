@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.MonitorFragment"
+    android:layout_marginBottom="64dp"
+    android:background="@color/colorWhite">
+    <android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".Fragments.MonitorFragment"
+        android:layout_marginBottom="66dp"
+        android:background="@color/colorWhite"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:custom="http://schemas.android.com/apk/res-auto">
+
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/batteryChart"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            custom:layout_constraintTop_toTopOf="parent"/>
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/lineChart"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:layout_marginTop="200dp"
+            custom:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/chartdescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Battery chart"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            custom:layout_constraintTop_toBottomOf="@id/lineChart"
+            custom:layout_constraintLeft_toLeftOf="parent"/>
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

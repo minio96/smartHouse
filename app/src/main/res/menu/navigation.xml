@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_monitor"
+        android:icon="@drawable/ic_eco_home"
+        android:title="Monitor" />
+
+    <item
+        android:id="@+id/navigation_alarm"
+        android:icon="@drawable/ic_power_black_24dp"
+        android:title="Alarm"/>
+
+    <item
+        android:id="@+id/navigation_control"
+        android:icon="@drawable/ic_settings"
+        android:title="Control"/>
+
+    <item
+        android:id="@+id/navigation_account"
+        android:icon="@drawable/ic_person"
+        android:title="Account" />
+
+</menu>
